@@ -103,7 +103,7 @@ public class ReservationService {
         }
         Guest guest = guestRepository.findById(itemId).orElse(null);
         guestRepository.delete(guest); // Delete the item from the database
-        
+
     }
 }
 
